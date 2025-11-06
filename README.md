@@ -137,8 +137,8 @@ The cricket score predictor features a modern, professional dashboard with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/amrishnitjsr/World-Cup-Score-Predictor.git
-   cd World-Cup-Score-Predictor
+   git clone https://github.com/dograsumit/worldcuppredictor.git
+   cd worldcuppredictor
    ```
 
 2. **Install dependencies**
@@ -418,28 +418,6 @@ CACHE_TIMEOUT=3600          # Cache timeout in seconds
 - [ ] **Explainable AI**: SHAP/LIME integration for prediction explanations
 - [ ] **Auto-ML Pipeline**: Automated model retraining and optimization
 
-## 🛠️ Development & Testing
-
-### Local Development Setup
-```bash
-# Clone repository
-git clone https://github.com/amrishnitjsr/World-Cup-Score-Predictor.git
-cd World-Cup-Score-Predictor
-
-# Create virtual environment
-python -m venv cricket_env
-source cricket_env/bin/activate  # On Windows: cricket_env\Scripts\activate
-
-# Install development dependencies
-pip install -r requirements.txt
-pip install -r requirements-dev.txt  # Optional: testing dependencies
-
-# Run application with hot reload
-streamlit run streamlit_app.py --server.runOnSave=true --server.port=8501
-
-# Access application
-# Open http://localhost:8501 in your browser
-```
 
 ### Testing Framework
 ```bash
@@ -568,25 +546,6 @@ Result: Predicted 367 runs, New Zealand 54% win probability
 - **ODI**: <240 (Poor), 240-280 (Below Par), 280-320 (Competitive), 320+ (Excellent)  
 - **Test**: <250 (Poor), 250-300 (Average), 300-400 (Good), 400+ (Excellent)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Amrish Yadav**
-- GitHub: [@amrishnitjsr](https://github.com/amrishnitjsr)
-- LinkedIn: [Connect with me](https://linkedin.com/in/amrishyadav)
 
 ## 🙏 Acknowledgments
 
